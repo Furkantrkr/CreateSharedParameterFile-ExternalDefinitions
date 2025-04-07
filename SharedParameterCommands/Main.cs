@@ -21,6 +21,7 @@ namespace SharedParameterCommands
         {
             // creatred a new development branch
             // add this command line in order compare it
+            // add another command to try cherry-pick git command
             UIApplication uIApplication = externalCommandData.Application;
             Application application = uIApplication.Application;
             UIDocument uiDocument = uIApplication.ActiveUIDocument;
