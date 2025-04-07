@@ -20,6 +20,7 @@ namespace SharedParameterCommands
         public Result Execute(ExternalCommandData externalCommandData, ref string message, ElementSet elements)
         {
             // creatred a new development branch
+            // add this command line in order compare it
             UIApplication uIApplication = externalCommandData.Application;
             Application application = uIApplication.Application;
             UIDocument uiDocument = uIApplication.ActiveUIDocument;
